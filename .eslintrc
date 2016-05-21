@@ -1,0 +1,43 @@
+{
+  "parser": "babel-eslint",
+  "rules": {
+    "indent": [2,2, {"SwitchCase": 1}],
+    "quotes": [2,"single"],
+    "linebreak-style": [2,"unix"],
+    "semi": [2,"never"],
+    "eqeqeq": [2, "smart"],
+    "one-var": [2, "always"],
+    "space-before-blocks": [2, "always"],
+    "vars-on-top": 2,
+    "complexity": [2, 8],
+    "no-console": 1,
+    "react/jsx-uses-react": 2,
+    "react/jsx-uses-vars": 2,
+    "newline-after-var": [2, "always"]
+  },
+  "env": {
+    "es6": true,
+    "node": true,
+    "browser": true
+  },
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "ecmaFeatures": {
+    "jsx": true,
+    "experimentalObjectRestSpread": true,
+    "destructuring": true,
+    "spread": true,
+    "restParams": true
+  },
+  "plugins": [
+    "react"
+  ],
+  "object-shorthand": [2, "always"],
+  "globals": {
+    "window": true,
+    "Ember": true,
+    "Highcharts": true,
+    "classNames": true,
+    "moment": true,
+    "$": true
+  }
+}

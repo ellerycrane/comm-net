@@ -1,0 +1,22 @@
+# compiled output
+/dist/app.css
+/dist/app.js
+/tmp
+
+# dependencies
+/node_modules
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage/*
+/libpeerconnection.log
+npm-debug.log
+testem.log
+.tern-port
+.DS_Store
+Thumbs.db
+.eslintcache
+
+.idea
+*.iml

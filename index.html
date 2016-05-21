@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>COMM NET</title>
+  </head>
+  <body>
+  <header>
+    <select id="target">
+      <option value="group" selected>Group message</option>
+    </select>
+    <br/>
+    <select id="type">
+      <option value="p2p">Secure Message</option>
+      <option value="socket" selected>Socket Message</option>
+    </select>
+    <br/>
+    <input type="text" id="message" placeholder="My message" />
+    <button onclick="sendMessage()">Send message</button>
+  </header>
+
+  <div id="container">
+    <div id="chatbox"></div>
+  </div>
+
+
+
+  <script type="text/javascript" src="dist/skylink.complete.js"></script>
+  <script type="text/javascript" src="dist/skylink.debug.js"></script>
+  <script type="text/javascript" src="dist/app.js"></script>
+  </body>
+</html>
